@@ -1,0 +1,113 @@
+{
+    "kpis": [
+        {
+            "timestamp": "2026-08-19T10:39:36.727405Z",
+            "cell_id": "KOL-5G-017",
+            "rsrp_dbm": -83.69557687986905,
+            "rsrq_db": -14.31199506251529,
+            "sinr_db": 17.874690341718612,
+            "latency_ms": 394.3862011078398,
+            "packet_loss_percent": 7.355502496121668,
+            "throughput_mbps": 6.414682186416265,
+            "prb_utilization_percent": 56.783196080557076,
+            "handover_success_rate": 98.31183120892912,
+            "drop_rate_percent": 0.47300602540900494,
+            "active_users": 61
+        },
+        {
+            "timestamp": "2026-08-19T10:39:36.727405Z",
+            "cell_id": "DEL-5G-042",
+            "rsrp_dbm": -104.31659674062021,
+            "rsrq_db": -14.258368762531575,
+            "sinr_db": 0.7091248942437831,
+            "latency_ms": 18.87521519803316,
+            "packet_loss_percent": 0.020153979408505086,
+            "throughput_mbps": 9.651531223619447,
+            "prb_utilization_percent": 37.92156642869257,
+            "handover_success_rate": 99.46667419751168,
+            "drop_rate_percent": 6.67833226467251,
+            "active_users": 190
+        },
+        {
+            "timestamp": "2026-08-19T10:39:36.727405Z",
+            "cell_id": "BLR-5G-088",
+            "rsrp_dbm": -84.94217033577837,
+            "rsrq_db": -11.843247594493027,
+            "sinr_db": 18.479511715768126,
+            "latency_ms": 13.021395030402621,
+            "packet_loss_percent": 0.06928150996763766,
+            "throughput_mbps": 213.54578032726198,
+            "prb_utilization_percent": 30.43799320953644,
+            "handover_success_rate": 81.77456862354461,
+            "drop_rate_percent": 4.911722948774461,
+            "active_users": 146
+        },
+        {
+            "timestamp": "2026-08-19T10:39:36.727405Z",
+            "cell_id": "MUM-5G-101",
+            "rsrp_dbm": -82.57687987592777,
+            "rsrq_db": -11.933076051948404,
+            "sinr_db": 12.30800196688703,
+            "latency_ms": 17.851723760724795,
+            "packet_loss_percent": 0.08332541442209854,
+            "throughput_mbps": 351.4735679778691,
+            "prb_utilization_percent": 52.159027797140084,
+            "handover_success_rate": 98.781646320216,
+            "drop_rate_percent": 0.16544356887818246,
+            "active_users": 77
+        },
+        {
+            "timestamp": "2026-08-19T10:39:36.727405Z",
+            "cell_id": "CHE-5G-200",
+            "rsrp_dbm": -83.33411987603226,
+            "rsrq_db": -11.487034471940097,
+            "sinr_db": 14.608327123345035,
+            "latency_ms": 106.4974538902774,
+            "packet_loss_percent": 4.1406401696957325,
+            "throughput_mbps": 37.365178354761255,
+            "prb_utilization_percent": 97.6762861819312,
+            "handover_success_rate": 99.14047562054799,
+            "drop_rate_percent": 0.45286382079773213,
+            "active_users": 540
+        }
+    ],
+    "logs": {
+        "KOL-5G-017": [
+            "2026-08-19T09:39:36.727405 [WARN] KOL-5G-017 - S1 interface latency spike.",
+            "2026-08-19T09:49:36.727405 [ERROR] KOL-5G-017 - SCTP heartbeat failure on transport network."
+        ],
+        "DEL-5G-042": [
+            "2026-08-19T09:39:36.727405 [WARN] DEL-5G-042 - High UL RSSI detected.",
+            "2026-08-19T09:59:36.727405 [ERROR] DEL-5G-042 - Radio link failure count exceeded threshold."
+        ],
+        "BLR-5G-088": [
+            "2026-08-19T09:39:36.727405 [WARN] BLR-5G-088 - Too many X2 handover preparation failures with neighbor BLR-5G-089."
+        ],
+        "MUM-5G-101": [
+            "2026-08-19T09:39:36.727405 [INFO] MUM-5G-101 - Cell operating normally."
+        ],
+        "CHE-5G-200": [
+            "2026-08-19T09:39:36.727405 [WARN] CHE-5G-200 - High PRB utilization detected.",
+            "2026-08-19T09:54:36.727405 [ERROR] CHE-5G-200 - Admission control rejected 45 connections."
+        ]
+    },
+    "neighbors": {
+        "KOL-5G-017": [
+            "KOL-5G-018",
+            "KOL-5G-019"
+        ],
+        "DEL-5G-042": [
+            "DEL-5G-043"
+        ],
+        "BLR-5G-088": [
+            "BLR-5G-089",
+            "BLR-5G-090"
+        ],
+        "MUM-5G-101": [
+            "MUM-5G-102"
+        ],
+        "CHE-5G-200": [
+            "CHE-5G-201"
+        ]
+    }
+}
